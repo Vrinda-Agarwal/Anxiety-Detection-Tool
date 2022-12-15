@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(./media2/A1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  .buttonss {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(128, 255, 0, 0.538);
+    padding: 1vh;
+    /* margin-left: 3vw; */
+    margin-right: 5vw;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    font-size: 2.5vw;
+    border: 0.25vw solid rgb(5, 57, 2);
+    border-radius:2vw;
+    transition: all ease-in-out 250ms;
+  }
+    #buttonss:hover{
+     background-color: rgba(128, 255, 0, 0.863);
+    }
+    #buttonss1:hover{
+        background-color: rgba(128, 255, 0, 0.863);
+       }
+    .gonext {
+        position:fixed;
+        width: 6vh;
+        height: 6vh;
+        bottom: 6vh;
+        right: 6vh;
+        color: white;
+        text-decoration: none;
+        background-color: rgba(128, 255, 0, 0.538);
+        /* padding: 5px; */
+        /* padding-bottom: 5px;
+        margin: 8px;
+        margin-top: 10px;
+        margin-bottom: 10px; */
+        font-size: 2vh;
+        text-align: center;
+        border: 0.25vw solid rgb(5, 57, 2);
+        border-radius: .8vw;
+        transition: all ease-in-out 250ms;
+        /* line-height: 50px; */
+      }
+      .goprev {
+        position:fixed;
+        width: 6vh;
+        height: 6vh;
+        top: 6vh;
+        left: 6vh;
+        color: white;
+        text-decoration: none;
+        background-color: rgba(128, 255, 0, 0.538);
+        font-size: 2vh;
+        text-align: center;
+        border: 0.25vw solid rgb(5, 57, 2);
+        border-radius: .8vw;
+        transition: all ease-in-out 250ms;
+        /* line-height: 50px; */
+      }
+    .box2{
+      width: 80vw;
+      height:100vh;
+      background: rgba(0, 0, 0, 0.473);
+      padding-top: 20vh;
+      text-align: center;
+      margin: auto;
+      margin-top: 1.5%;
+      margin-bottom: 2.5%;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
+      border-radius: 0.25vh;
+    }
+    .box-img{
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+    }
+    #studentForm input[name="name"] {
+      grid-area: name;
+    }
+    #studentForm button {
+      grid-area: button;
+    }
+    
+    #studentForm {
+      display: grid;
+      /* grid-template-columns: 1fr 1fr; */
+      grid-template-rows: auto;
+      /* grid-template-areas:
+        "name name"
+        "button button"; */
+    }
+    
+    #studentForm * {
+     margin-left: 30vw;
+      margin-right:30vw;
+      padding: 7px;
+      font-size: 1.1rem;
+      border-radius:0.8vw;
+      transition: all 0.3s ease;
+    }
+   
+    #studentForm button {
+      outline: none;
+      background-color: rgba(58, 57, 59, 0.4);
+      color: white;
+      border: 5px solid transparent;
+      cursor: pointer;
+    }
+    
+    #studentForm input {
+      border: 3px solid rgba(0, 0, 0, 0.4);
+      outline: none;
+    }
+    
+    #studentForm input:focus {
+      border: 3px solid rgba(0, 0, 0, 0.4);
+    }
+    
+    #studentForm button:active {
+      border-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .students {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border: 2px solid gray;
+      background-color: #ebebeb;
+      color: #2f2f2f;
+      border-radius: 15px;
+    }
+    
+    .students div {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .students div * {
+      margin: 5px;
+    }

@@ -1,0 +1,142 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(./media2/HIGH.webp);
+    background-size:100%;
+    background-attachment: fixed;
+  }
+  .buttonss {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(128, 255, 0, 0.538);
+    padding: 1vh;
+    margin: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border: 2px solid rgb(5, 57, 2);
+    border-radius: 8px;
+    transition: all ease-in-out 250ms;
+  }
+    #buttonss:hover{
+     background-color: rgba(128, 255, 0, 0.863);
+    }
+    #buttonss1:hover{
+        background-color: rgba(128, 255, 0, 0.863);
+       }
+    .gotop {
+      position:fixed;
+      width: 40px;
+      height: 40px;
+      bottom: 30px;
+      right: 30px;
+      color: white;
+      text-decoration: none;
+      background-color: rgba(128, 255, 0, 0.538);
+      padding: 5px;
+      padding-bottom: 5px;
+      margin: 8px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      border: 2px solid rgb(5, 57, 2);
+      border-radius: 8px;
+      transition: all ease-in-out 250ms;
+      line-height: 50px;
+    }
+    .box {
+      width: 80vw;
+      height: 80vh;
+      background: rgba(0, 0, 0, 0.473);
+      padding-left: 5vh;
+      padding-right:5vh;
+      text-align: center;
+      margin:auto;
+      margin-top: 1.5%;
+      margin-bottom: 2.5%;
+      color: white;
+      font-family: 'Century Gothic', sans-serif;
+      border-radius: 8px;
+    }
+    .box2{
+      width: 80vw;
+      height: 50vh;
+      background: rgba(0, 0, 0, 0.473);
+      padding-top: 50vh;
+      padding-left: 5vh;
+      padding-right:5vh;
+      text-align: center;
+      margin: auto;
+      margin-top: 1.5%;
+      margin-bottom: 2.5%;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
+      border-radius: 8px;
+    }
+    .box-img{
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+    }
+    #studentForm input[name="name"] {
+      grid-area: name;
+    }
+    #studentForm button {
+      grid-area: button;
+    }
+    
+    #studentForm {
+      display: grid;
+      /* grid-template-columns: 1fr 1fr; */
+      grid-template-rows: auto;
+      /* grid-template-areas:
+        "name name"
+        "button button"; */
+    }
+    
+    #studentForm * {
+      margin:auto;
+      padding: 7px;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+   
+    #studentForm button {
+      outline: none;
+      background-color: rgba(58, 57, 59, 0.4);
+      color: white;
+      border: 5px solid transparent;
+      cursor: pointer;
+    }
+    
+    #studentForm input {
+      border: 3px solid rgba(0, 0, 0, 0.4);
+      outline: none;
+    }
+    
+    #studentForm input:focus {
+      border: 3px solid rgba(0, 0, 0, 0.4);
+    }
+    
+    #studentForm button:active {
+      border-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .students {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border: 2px solid gray;
+      background-color: #ebebeb;
+      color: #2f2f2f;
+      border-radius: 15px;
+    }

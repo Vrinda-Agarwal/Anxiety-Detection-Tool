@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link rel="stylesheet" href="./p1.css">
+  <title>MEGATHON</title>
+
+</head>
+
+<body>
+    <div class="box2">
+        <form id="studentForm">
+        <h1>ENTER YOUR NAME</h1>
+        <br>
+        <input type="text" placeholder="Write here" id="uname" style="text-align:center ;">
+        <br>
+        <a type="button" class="buttonss" id="buttonss" href="#age">ENTER</a>
+        </form>
+    </div>
+    <div class="box2" id="age">
+        <form id="studentForm">
+        <h1>WHATS YOUR AGE?</h1>
+        <br>
+        <input type="text" placeholder="Write here" id="uage">
+        <br>
+        <a type="button" onclick="naming()" class="buttonss" id="buttonss1" href="#intro">ENTER</a>
+        </form>
+    </div>
+    <div class="box" id="intro">
+        <a style="font-size:2.5vw ;">Hello </a><a style="font-size:2.5vw ;" class="output" id="output1"></a><a style="font-size:2.5vw ;">! </a><br><a style="font-size:2.5vw ;">Going through mental break down? Dont worry we got your back!</a>
+        <br>
+        <br>
+        <br>
+        <a class="buttonss" href="./p2.html" target="_self" id="buttonss">Continue</a>
+
+    </div>
+    <script>
+        const txt1 = document.getElementById('uname');
+        const age = document.getElementById('uage');
+        const btn1 = document.getElementById('buttonss');
+        const out1 = document.getElementById('output1');
+        function fun1() { 
+            out1.innerHTML = txt1.value;    
+        }
+        btn1.addEventListener('click',fun1);
+    </script>
+</body>
+
+</html>
